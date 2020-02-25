@@ -1,0 +1,66 @@
+/* versione mobile */
+
+@media screen and (max-width:420px) {
+
+  .row {
+    width: 100%;
+    margin-top: 20%;
+  }
+
+  img {
+  height: 170px; 
+  }
+
+  /* parte lezioni */
+
+  .row h1 {
+    font-size: 2.8em;
+    padding-bottom: 5%;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right {
+    float: none;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .left, .right, .central {
+    font-size: 1.5em;
+  }
+
+  /* parte steps */
+
+  #steps .row > h1, #why .row > h1 {
+    padding-top: 5%;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    float: none;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+
+  /* parte why */
+
+  #why .row > .first {
+    width: 100%;
+    margin: auto;
+  }
+
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 15%;
+  }
+
+  .first, .second ,.third {
+    font-size: 1.5em;
+  }
+
+  hr {
+    margin-top: 7%;
+  }
+
+}
